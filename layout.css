@@ -2,7 +2,9 @@
     display: grid;
     grid-template-columns: auto;
     gap: 10px;
+    text-align: center;
     }
+
 
     body {
         width: 60%;
@@ -12,7 +14,8 @@
         
         fieldset {
         margin-bottom: 10px;
-        background-color: #21496b;
+        background-color: white;
+        opacity: 80%;
         border-radius: 5px;
         }
         
@@ -25,8 +28,17 @@
             text-align: center;
         }
 
+        
         .grid-container-submit :hover{
-        color: antiquewhite;
+        color: white;
         }
 
+
+        .aside{
+            float: left;
+        }
+
+        .Article{
+            float: right;
+        }
     
