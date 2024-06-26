@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    text-align: center;
+    }
+
+
+    body {
+        width: 60%;
+        margin: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #21496b;
+        }
+
+        
+        fieldset {
+        margin-bottom: 10px;
+        background-color: white;
+        border-radius: 5px;
+        }
+        
+        fieldset input, select {
+            font-size: large;
+        }
+
+        fieldset h1 {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .aside{
+            display: inline-flex;
+        }
+
+        .article{
+            display: inline-flex;
+        }
